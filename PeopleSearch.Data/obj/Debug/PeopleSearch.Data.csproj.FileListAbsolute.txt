@@ -1,0 +1,5 @@
+c:\users\alexfriedman\documents\visual studio 2013\Projects\MvcApplication22\PeopleSearch.Data\bin\Debug\PeopleSearch.Data.dll
+c:\users\alexfriedman\documents\visual studio 2013\Projects\MvcApplication22\PeopleSearch.Data\bin\Debug\PeopleSearch.Data.pdb
+c:\users\alexfriedman\documents\visual studio 2013\Projects\MvcApplication22\PeopleSearch.Data\obj\Debug\PeopleSearch.Data.csprojResolveAssemblyReference.cache
+c:\users\alexfriedman\documents\visual studio 2013\Projects\MvcApplication22\PeopleSearch.Data\obj\Debug\PeopleSearch.Data.dll
+c:\users\alexfriedman\documents\visual studio 2013\Projects\MvcApplication22\PeopleSearch.Data\obj\Debug\PeopleSearch.Data.pdb

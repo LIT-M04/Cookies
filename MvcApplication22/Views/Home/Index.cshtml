@@ -1,0 +1,44 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+@using PeopleSearch.Data;
+@using MvcApplication22.Models;
+@model IndexViewModel
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <form action="/home/index">
+            <div class="row">
+                <div class="col-md-3">
+                    <input type="text" name="lastName" class="form-control" placeholder="Search by Last Name" value="@Model.LastName"/>
+                </div>
+                <div class="col-md-3">
+                    <button class="btn btn-success">Submit</button>
+                </div>
+            </div>
+        </form>
+        <table class="table table-hover table-striped table-bordered">
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Age</th>
+            </tr>
+            @foreach (Person person in Model.People)
+            {
+                <tr>
+                    <td>@person.FirstName</td>
+                    <td>@person.LastName</td>
+                    <td>@person.Age</td>
+                </tr>
+            }
+        </table>
+    </div>
+</body>
+</html>

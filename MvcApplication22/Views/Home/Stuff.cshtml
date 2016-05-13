@@ -1,0 +1,25 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+@model MvcApplication22.Models.StuffViewModel
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Stuff</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        @if (Model.BeenHere)
+        {
+            <h1>You've been here before!! Your first time was at: @Model.FirstTime</h1>
+        }
+        else
+        {
+            <h1>Welcome new person!!</h1>
+        }
+    </div>
+</body>
+</html>

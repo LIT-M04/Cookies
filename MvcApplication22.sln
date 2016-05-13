@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcApplication22", "MvcApplication22\MvcApplication22.csproj", "{7060C67C-40AB-4E46-9B7C-905A0C772295}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleSearch.Data", "PeopleSearch.Data\PeopleSearch.Data.csproj", "{70343BA3-A8C1-4863-848C-482CB7F11854}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7060C67C-40AB-4E46-9B7C-905A0C772295}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7060C67C-40AB-4E46-9B7C-905A0C772295}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7060C67C-40AB-4E46-9B7C-905A0C772295}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7060C67C-40AB-4E46-9B7C-905A0C772295}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70343BA3-A8C1-4863-848C-482CB7F11854}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70343BA3-A8C1-4863-848C-482CB7F11854}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70343BA3-A8C1-4863-848C-482CB7F11854}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70343BA3-A8C1-4863-848C-482CB7F11854}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
